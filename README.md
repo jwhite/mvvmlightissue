@@ -11,6 +11,10 @@ Here is the build error experienced:
 
 warning C4691: 'System::Object': type referenced was expected in unreferenced assembly 'System.Runtime', type defined in current translation unit used instead
 
+This stack overflow question seems to be related but there is no fix for C++/CLI
+
+http://stackoverflow.com/questions/36160451/how-can-a-c-cli-project-reference-a-portable-class-library/39907236
+
 
 Here is the full build error output:
 
