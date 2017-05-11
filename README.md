@@ -9,6 +9,11 @@ This simple solution/project reproduces the issue encountered while using the Mv
 
 Here is the build error experienced:
 
+warning C4691: 'System::Object': type referenced was expected in unreferenced assembly 'System.Runtime', type defined in current translation unit used instead
+
+
+Here is the full build error output:
+
 1>  d:\source\github\mvvmlightissue\library\library\ViewModel.h(6): warning C4691: 'System::Object': type referenced was expected in unreferenced assembly 'System.Runtime', type defined in current translation unit used instead
 1>  d:\source\github\mvvmlightissue\library\library\ViewModel.h(6): note: This diagnostic occurred while importing type 'GalaSoft::MvvmLight::ObservableObject ' from assembly 'GalaSoft.MvvmLight, Version=5.3.0.19026, Culture=neutral, PublicKeyToken=e7570ab207bcb616'.
 1>  d:\source\github\mvvmlightissue\library\library\ViewModel.h(6): note: This diagnostic occurred while importing type 'GalaSoft::MvvmLight::ViewModelBase ' from assembly 'GalaSoft.MvvmLight, Version=5.3.0.19026, Culture=neutral, PublicKeyToken=e7570ab207bcb616'.
